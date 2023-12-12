@@ -44,8 +44,8 @@ namespace praktikum10
             //Задача 2. В зависимости от порядкового номера месяца (1, 2, ... , 12) вывести на экран его название (январь, февраль, ... , декабрь).
 
             Console.WriteLine("введите номер месяца от 1 до 12: ");
-            byte months = byte.Parse(Console.ReadLine());
-            switch (months)
+            byte month1 = byte.Parse(Console.ReadLine());
+            switch (month1)
             {
                 case 1:
                     Console.WriteLine("январь");
@@ -117,6 +117,7 @@ namespace praktikum10
                     Console.WriteLine("ошибка");
                     break;
             }
+
 
             //Задача 4. Вывести название предмета по введенной первой букве: ф – физика, м – математика, и – история, г – география, б – биология.
 
